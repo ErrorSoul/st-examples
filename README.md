@@ -55,8 +55,51 @@ else(condition3)
 end  
 ```
 
-![if/else/elsif block]()
-![if/else/elsif code]()
+![if/else/elsif block](https://media.geeksforgeeks.org/wp-content/uploads/if-else-if-statementruby.jpg)
+![if/else/elsif code](https://github.com/ErrorSoul/st-examples/blob/032d0e04ba1ed10541157f9866d2b1e79ab63b0e/if_elsif_else.png)
+
+### Case
+
+```
+case expression
+
+when expression 1
+  # your code
+
+when expression 2
+  # your code
+.
+.
+
+else
+  # your code
+end
+```
+
+![case block](https://media.geeksforgeeks.org/wp-content/uploads/ruby-case.jpg)
+![case code](https://github.com/ErrorSoul/st-examples/blob/326cb65df098543ae9b8ba31332ac2ced7f443a8/%D1%81ase.png)
+
+### While
+
+```
+while conditional [do]
+
+ # code to be executed
+
+end
+```
+
+![while](https://media.geeksforgeeks.org/wp-content/uploads/rubyWhile-loop.jpg)
+![while](https://github.com/ErrorSoul/st-examples/blob/ea27644624fccf3c25e949fe7f9afecfa59d34c3/while.png)
+
+#### Output
+```
+Foo
+Foo
+Foo
+Foo
+```
+# Задачи
 
 1) Вывести числа от 1 до 10 (все делать через while, until, for c in range, each)
 2) На вход дается строка, например, `"Hello"` . Программа по очереди выводит каждую букву в верхнем регистре. Второй вариант в нижнем регистре
