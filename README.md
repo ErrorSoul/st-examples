@@ -99,6 +99,68 @@ Foo
 Foo
 Foo
 ```
+
+
+### for c in 
+
+```
+for variable_name[, variable...] in expression [do]
+
+   # code to be executed
+
+end
+```
+
+![for c in ](https://github.com/ErrorSoul/st-examples/blob/637cf2d729f91d2caba745e996f7af71a8abbb44/forin.png)
+
+#### Output
+```
+GFG
+G4G
+Geeks
+Sudo
+```
+
+### loop
+
+```
+loop do
+
+ # code to be executed
+
+break if Boolean_Expression
+
+end
+```
+
+![loop](https://github.com/ErrorSoul/st-examples/blob/9fc3aa5b2bb89a3fb908bcd0ef3d8445fa1034fe/loop.png)
+
+
+#### Output
+```
+GeeksforGeeks
+```
+
+### until
+
+```
+until conditional [do]
+
+ # code to be executed
+
+end
+```
+
+![until](https://github.com/ErrorSoul/st-examples/blob/9fc3aa5b2bb89a3fb908bcd0ef3d8445fa1034fe/until.png)
+
+
+#### Output
+```
+70
+80
+90
+100
+```
 # Задачи
 
 1) Вывести числа от 1 до 10 (все делать через while, until, for c in range, each)
