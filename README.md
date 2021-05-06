@@ -9,9 +9,54 @@ Tasks for trainees
 ![container structure](https://www.educative.io/api/edpresso/shot/6445167638740992/image/6388045848772608)
 
 
-### Control Flow
-![if/else/elsif](https://www.educative.io/api/edpresso/shot/6445167638740992/image/6388045848772608)
+# Control Flow
 
+
+### IF
+```
+if (condition) 
+ 
+   # statements to be executed 
+ 
+end
+```
+![if block](https://media.geeksforgeeks.org/wp-content/uploads/rubyif-statement.png)
+![if](https://github.com/ErrorSoul/st-examples/blob/5dbd7b40cb595a202dd2653f1b0b443864dc5a3b/if.png)
+
+### IF/ELSE
+```
+if(condition)  
+
+    # code if the condition is true  
+
+else  
+
+   # code if the condition is false  
+end 
+```
+![if/else block](https://media.geeksforgeeks.org/wp-content/uploads/if-else-statementruby.jpg)
+![if/else code](https://github.com/ErrorSoul/st-examples/blob/936c69b786b2abf47b1853fbf2ed18049b3362eb/if_else.png)
+
+
+### IF/ELSIF/ELSE
+
+```
+if(condition1)  
+
+# code to be executed if condition1is true
+  
+elsif(condition2)
+  
+# code to be executed if condition2 is true  
+
+else(condition3)  
+
+# code to be executed if condition3 is true  
+end  
+```
+
+![if/else/elsif block]()
+![if/else/elsif code]()
 
 1) Вывести числа от 1 до 10 (все делать через while, until, for c in range, each)
 2) На вход дается строка, например, `"Hello"` . Программа по очереди выводит каждую букву в верхнем регистре. Второй вариант в нижнем регистре
