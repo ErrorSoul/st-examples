@@ -161,6 +161,28 @@ end
 90
 100
 ```
+
+### each
+
+```
+arr.each do |elem|
+
+ # code to be executed 
+
+end
+```
+
+![each](https://github.com/ErrorSoul/st-examples/blob/2933336dcf611fdfd0b94919864a39c9c272443f/each.png)
+
+
+#### Output
+```
+1
+2
+3
+4
+5
+```
 # Задачи
 
 1) Вывести числа от 1 до 10 (все делать через while, until, for c in range, each)
