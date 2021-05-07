@@ -84,12 +84,16 @@ The new array is:
 a = [1, 2, 3] 
 b = ['a', 'b', 'c']
 zip(a, b)
-[[1, 'a'], [2, 'b'], [3, 'c']] , если массивы разной длины, то заполнение идет по более короткому, недостающие элементы заполнить :empty , то есть [[1, :empty]]
+[[1, 'a'], [2, 'b'], [3, 'c']] , если массивы разной длины, 
+то заполнение идет по более короткому, 
+недостающие элементы заполнить :empty , то есть [[1, :empty]]
 ``` 
 31) написать zip для трех массивов
+32) 
 
 ```
-Write a function that takes a list of strings an prints them, one per line, in a rectangular frame. For example the list ["Hello", "World", "in", "a", "frame"] gets printed as:
+Write a function that takes a list of strings an prints them, one per line, in a rectangular frame. 
+For example the list ["Hello", "World", "in", "a", "frame"] gets printed as:
 
 *********
 * Hello *
@@ -99,4 +103,11 @@ Write a function that takes a list of strings an prints them, one per line, in a
 * frame *
 *********
 ```
+33) написать телефонную книгу ( есть 10 уникальных имен или фамилий, есть их номера). Реализуйте используя только массивы, хэш нельзя
+34) используя массивы реализуйте программу, которая работает аналогично Hash
+- можно добавлять ключ/значение
+- можно удалять ключ значение
+- вывести все ключи
+- вывести все значения
+- если ключи одинаковы - перезаписывается
 
