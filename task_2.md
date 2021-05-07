@@ -78,3 +78,25 @@ The given array is : 2 5 7 0 4 0 7 -5 8 0
 The new array is:
  2 5 7 4 7 -5 8 0 0 0
 ```
+30)
+написать реализацию zip. Например, на вход дается два массива, 
+``` 
+a = [1, 2, 3] 
+b = ['a', 'b', 'c']
+zip(a, b)
+[[1, 'a'], [2, 'b'], [3, 'c']] , если массивы разной длины, то заполнение идет по более короткому, недостающие элементы заполнить :empty , то есть [[1, :empty]]
+``` 
+31) написать zip для трех массивов
+
+```
+Write a function that takes a list of strings an prints them, one per line, in a rectangular frame. For example the list ["Hello", "World", "in", "a", "frame"] gets printed as:
+
+*********
+* Hello *
+* World *
+* in    *
+* a     *
+* frame *
+*********
+```
+
